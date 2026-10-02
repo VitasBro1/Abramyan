@@ -1,0 +1,7 @@
+import math
+def TrianglePS (a):
+    P = 3 * a
+    S = a ** 2 * math.sqrt(3 / 4)
+    return P , S
+
+print(TrianglePS(3))
